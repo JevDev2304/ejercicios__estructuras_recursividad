@@ -27,6 +27,7 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
+#Fibonacci
 def fibonacci(sucesion):
     if sucesion == 0:
         return 0
@@ -37,7 +38,6 @@ def fibonacci(sucesion):
 
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
    imprimirunoan(10)
    imprimirelementolista(listaejemplo)
@@ -47,5 +47,3 @@ if __name__ == '__main__':
    print("El resultado de la  función fibonacci en la cuarta sucesion es " + str(resultadofibonacci))
 
 
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
